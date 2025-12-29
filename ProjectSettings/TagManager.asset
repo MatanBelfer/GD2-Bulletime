@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -38,6 +38,26 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Floor
+    uniqueID: 1245243561
+    locked: 0
+  - name: Street Trash
+    uniqueID: 648297031
+    locked: 0
+  - name: Walls
+    uniqueID: 3481111195
+    locked: 0
+  - name: Buildings
+    uniqueID: 4169008875
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Entities
+    uniqueID: 2554026805
+    locked: 0
+  - name: Building Tops
+    uniqueID: 4293784683
+    locked: 0
+  m_RenderingLayers:
+  - Default
