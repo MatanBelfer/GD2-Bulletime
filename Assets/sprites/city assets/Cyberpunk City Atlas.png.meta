@@ -1,0 +1,3289 @@
+fileFormatVersion: 2
+guid: 020bcf8dbe479d945b3cd6b780293730
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8115517374849943559
+    second: Cyberpunk City Atlas_0
+  - first:
+      213: -151374829837205295
+    second: Cyberpunk City Atlas_1
+  - first:
+      213: 3191258529131605927
+    second: Cyberpunk City Atlas_2
+  - first:
+      213: 2871564273319814602
+    second: Cyberpunk City Atlas_3
+  - first:
+      213: 8364500195521446847
+    second: Cyberpunk City Atlas_4
+  - first:
+      213: 8607234813630462576
+    second: Cyberpunk City Atlas_5
+  - first:
+      213: -9202216432382415663
+    second: Cyberpunk City Atlas_6
+  - first:
+      213: 3776378029055833508
+    second: Cyberpunk City Atlas_7
+  - first:
+      213: 2017512814807790065
+    second: Cyberpunk City Atlas_8
+  - first:
+      213: 5665602414638749340
+    second: Cyberpunk City Atlas_9
+  - first:
+      213: -6521810740273278504
+    second: Cyberpunk City Atlas_10
+  - first:
+      213: 1166548716711743849
+    second: Cyberpunk City Atlas_11
+  - first:
+      213: 6275955263280581393
+    second: Cyberpunk City Atlas_12
+  - first:
+      213: -2784539882809142511
+    second: Cyberpunk City Atlas_13
+  - first:
+      213: -434904173134747633
+    second: Cyberpunk City Atlas_14
+  - first:
+      213: 5403206965784025756
+    second: Cyberpunk City Atlas_15
+  - first:
+      213: 1472610494682158578
+    second: Cyberpunk City Atlas_16
+  - first:
+      213: -8637479928399914101
+    second: Cyberpunk City Atlas_17
+  - first:
+      213: 177904383298201945
+    second: Cyberpunk City Atlas_18
+  - first:
+      213: -8164253638301004296
+    second: Cyberpunk City Atlas_19
+  - first:
+      213: 2719148685253797487
+    second: Cyberpunk City Atlas_20
+  - first:
+      213: 5148481453388815749
+    second: Cyberpunk City Atlas_21
+  - first:
+      213: 1147460054902045474
+    second: Cyberpunk City Atlas_22
+  - first:
+      213: -4816242992436536265
+    second: Cyberpunk City Atlas_23
+  - first:
+      213: 3665622122971453149
+    second: Cyberpunk City Atlas_24
+  - first:
+      213: -4400487463765337903
+    second: Cyberpunk City Atlas_25
+  - first:
+      213: 154264222057584656
+    second: Cyberpunk City Atlas_26
+  - first:
+      213: -7025086015756441796
+    second: Cyberpunk City Atlas_27
+  - first:
+      213: -4314642301342986889
+    second: Cyberpunk City Atlas_28
+  - first:
+      213: -2259177373627367010
+    second: Cyberpunk City Atlas_29
+  - first:
+      213: -97229191363435701
+    second: Cyberpunk City Atlas_30
+  - first:
+      213: -8126554717606653290
+    second: Cyberpunk City Atlas_31
+  - first:
+      213: 7838345746771661076
+    second: Cyberpunk City Atlas_32
+  - first:
+      213: -7390114578314905973
+    second: Cyberpunk City Atlas_33
+  - first:
+      213: 2267130593973847663
+    second: Cyberpunk City Atlas_34
+  - first:
+      213: 7635219328022638926
+    second: Cyberpunk City Atlas_35
+  - first:
+      213: 5807310686866979227
+    second: Cyberpunk City Atlas_36
+  - first:
+      213: -6111567613081097127
+    second: Cyberpunk City Atlas_37
+  - first:
+      213: -5216422069071130614
+    second: Cyberpunk City Atlas_38
+  - first:
+      213: 317269272274099298
+    second: Cyberpunk City Atlas_39
+  - first:
+      213: -3994988661801525069
+    second: Cyberpunk City Atlas_40
+  - first:
+      213: 4765891675752841090
+    second: Cyberpunk City Atlas_41
+  - first:
+      213: 6745601084036746401
+    second: Cyberpunk City Atlas_42
+  - first:
+      213: 8524704687987092612
+    second: Cyberpunk City Atlas_43
+  - first:
+      213: 8026798537360370269
+    second: Cyberpunk City Atlas_44
+  - first:
+      213: 7374632501447284743
+    second: Cyberpunk City Atlas_45
+  - first:
+      213: 2311139480277266112
+    second: Cyberpunk City Atlas_46
+  - first:
+      213: -6848685133590761160
+    second: Cyberpunk City Atlas_47
+  - first:
+      213: -6742564029637844072
+    second: Cyberpunk City Atlas_48
+  - first:
+      213: -7656835630867828289
+    second: Cyberpunk City Atlas_49
+  - first:
+      213: 4930244436474024649
+    second: Cyberpunk City Atlas_50
+  - first:
+      213: 4225513386325075894
+    second: Cyberpunk City Atlas_51
+  - first:
+      213: -880374229126825899
+    second: Cyberpunk City Atlas_52
+  - first:
+      213: -2494670577469139283
+    second: Cyberpunk City Atlas_53
+  - first:
+      213: -942208107941038497
+    second: Cyberpunk City Atlas_54
+  - first:
+      213: -6666486252281212938
+    second: Cyberpunk City Atlas_55
+  - first:
+      213: -3136627172092978366
+    second: Cyberpunk City Atlas_56
+  - first:
+      213: 1096278587852305667
+    second: Cyberpunk City Atlas_57
+  - first:
+      213: -8899302110785620112
+    second: Cyberpunk City Atlas_58
+  - first:
+      213: 7797176863151386220
+    second: Cyberpunk City Atlas_59
+  - first:
+      213: -9075433199538467292
+    second: Cyberpunk City Atlas_60
+  - first:
+      213: 2225937120863797222
+    second: Cyberpunk City Atlas_61
+  - first:
+      213: 3657021766153518939
+    second: Cyberpunk City Atlas_62
+  - first:
+      213: 5173954227555215364
+    second: Cyberpunk City Atlas_63
+  - first:
+      213: -1855544190906825688
+    second: Cyberpunk City Atlas_64
+  - first:
+      213: 2076755205738073765
+    second: Cyberpunk City Atlas_65
+  - first:
+      213: -712043334672901929
+    second: Cyberpunk City Atlas_66
+  - first:
+      213: -2427924771005784966
+    second: Cyberpunk City Atlas_67
+  - first:
+      213: 2563889461775232725
+    second: Cyberpunk City Atlas_68
+  - first:
+      213: -3490937048639796956
+    second: Cyberpunk City Atlas_69
+  - first:
+      213: 2280269766938253290
+    second: Cyberpunk City Atlas_70
+  - first:
+      213: -4786880258478785465
+    second: Cyberpunk City Atlas_71
+  - first:
+      213: -4889301510300334699
+    second: Cyberpunk City Atlas_72
+  - first:
+      213: 5777993113652482917
+    second: Cyberpunk City Atlas_73
+  - first:
+      213: -4828971577538139900
+    second: Cyberpunk City Atlas_74
+  - first:
+      213: -5526021234067636050
+    second: Cyberpunk City Atlas_75
+  - first:
+      213: -3657070633524949167
+    second: Cyberpunk City Atlas_76
+  - first:
+      213: 3701206271334389480
+    second: Cyberpunk City Atlas_77
+  - first:
+      213: -6255589179549924432
+    second: Cyberpunk City Atlas_78
+  - first:
+      213: 5760333877905488406
+    second: Cyberpunk City Atlas_79
+  - first:
+      213: 3416468501260521281
+    second: Cyberpunk City Atlas_80
+  - first:
+      213: -1934100679783392850
+    second: Cyberpunk City Atlas_81
+  - first:
+      213: -7812590361596093094
+    second: Cyberpunk City Atlas_82
+  - first:
+      213: -3450788612411477509
+    second: Cyberpunk City Atlas_83
+  - first:
+      213: 3993264994156972696
+    second: Cyberpunk City Atlas_84
+  - first:
+      213: -1355654986031264570
+    second: Cyberpunk City Atlas_85
+  - first:
+      213: -1081027241730087140
+    second: Cyberpunk City Atlas_86
+  - first:
+      213: 1236500274953258138
+    second: Cyberpunk City Atlas_87
+  - first:
+      213: 2442197283641304790
+    second: Cyberpunk City Atlas_88
+  - first:
+      213: -6857366046883657638
+    second: Cyberpunk City Atlas_89
+  - first:
+      213: -470851775664061701
+    second: Cyberpunk City Atlas_90
+  - first:
+      213: -4725884516644929117
+    second: Cyberpunk City Atlas_91
+  - first:
+      213: 11077295398293044
+    second: Cyberpunk City Atlas_92
+  - first:
+      213: -8521541944496842336
+    second: Cyberpunk City Atlas_93
+  - first:
+      213: 2011427547988426184
+    second: Cyberpunk City Atlas_94
+  - first:
+      213: 2591925446476798293
+    second: Cyberpunk City Atlas_95
+  - first:
+      213: -6352810246635355608
+    second: Cyberpunk City Atlas_96
+  - first:
+      213: -1706847420026455324
+    second: Cyberpunk City Atlas_97
+  - first:
+      213: -180042592619207804
+    second: Cyberpunk City Atlas_98
+  - first:
+      213: 4643832727413162074
+    second: Cyberpunk City Atlas_99
+  - first:
+      213: -7619600005053216393
+    second: Cyberpunk City Atlas_100
+  - first:
+      213: 2293335273357732898
+    second: Cyberpunk City Atlas_101
+  - first:
+      213: -3452966186839002174
+    second: Cyberpunk City Atlas_102
+  - first:
+      213: 303256128532446449
+    second: Cyberpunk City Atlas_103
+  - first:
+      213: -6284072614074864832
+    second: Cyberpunk City Atlas_104
+  - first:
+      213: -8440057091341534025
+    second: Cyberpunk City Atlas_105
+  - first:
+      213: -2028053381850011808
+    second: Cyberpunk City Atlas_106
+  - first:
+      213: 4098300168342192134
+    second: Cyberpunk City Atlas_107
+  - first:
+      213: -4212718541053193200
+    second: Cyberpunk City Atlas_108
+  - first:
+      213: 1735198724408221929
+    second: Cyberpunk City Atlas_109
+  - first:
+      213: -1469515225325909532
+    second: Cyberpunk City Atlas_110
+  - first:
+      213: 1565649063726245294
+    second: Cyberpunk City Atlas_111
+  - first:
+      213: -5168222281535351372
+    second: Cyberpunk City Atlas_112
+  - first:
+      213: 5352071316586951691
+    second: Cyberpunk City Atlas_113
+  - first:
+      213: 6519589265850145361
+    second: Cyberpunk City Atlas_114
+  - first:
+      213: -2317470050991709281
+    second: Cyberpunk City Atlas_115
+  - first:
+      213: -6366941220878187563
+    second: Cyberpunk City Atlas_116
+  - first:
+      213: 1153978122078099057
+    second: Cyberpunk City Atlas_117
+  - first:
+      213: 8349741300656647248
+    second: Cyberpunk City Atlas_118
+  - first:
+      213: 296052275296324930
+    second: Cyberpunk City Atlas_119
+  - first:
+      213: 3658381599895215630
+    second: Cyberpunk City Atlas_120
+  - first:
+      213: -6684812587914673982
+    second: Cyberpunk City Atlas_121
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 719
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7080178fd0c10a070800000000000000
+      internalID: 8115517374849943559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 697
+        width: 66
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d04e9fe46536edf0800000000000000
+      internalID: -151374829837205295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 692
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af235769b0a94c20800000000000000
+      internalID: 3191258529131605927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 703
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac52eec0e78d9d720800000000000000
+      internalID: 2871564273319814602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 703
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3cdbd5c9ca41470800000000000000
+      internalID: 8364500195521446847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 703
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ab1dcb57a037770800000000000000
+      internalID: 8607234813630462576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 703
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc659109e82b4080800000000000000
+      internalID: -9202216432382415663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 703
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5767f2fc3686430800000000000000
+      internalID: 3776378029055833508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 703
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1ba604735affb10800000000000000
+      internalID: 2017512814807790065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 623
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c965323e06340ae40800000000000000
+      internalID: 5665602414638749340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 623
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d11fad8fafdd75a0800000000000000
+      internalID: -6521810740273278504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 623
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9619ac090e9603010800000000000000
+      internalID: 1166548716711743849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 623
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b051e7f0ca81750800000000000000
+      internalID: 6275955263280581393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 623
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113d04ecab35b59d0800000000000000
+      internalID: -2784539882809142511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 623
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08e7f075f8e6f9f0800000000000000
+      internalID: -434904173134747633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 623
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a1973ab1c0cfa40800000000000000
+      internalID: 5403206965784025756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_16
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 623
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5da045173cf6410800000000000000
+      internalID: 1472610494682158578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_17
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 623
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b1829b4c1812880800000000000000
+      internalID: -8637479928399914101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 543
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9596972181b087200800000000000000
+      internalID: 177904383298201945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 520
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdc0e0729eb2be80800000000000000
+      internalID: -8164253638301004296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_20
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 527
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66e504925b5cb520800000000000000
+      internalID: 2719148685253797487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_21
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 527
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d5de1aa94137740800000000000000
+      internalID: 5148481453388815749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_22
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 527
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bf26627d89cef00800000000000000
+      internalID: 1147460054902045474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_23
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 543
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c1bd31484492db0800000000000000
+      internalID: -4816242992436536265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_24
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 543
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6d68846e7eed230800000000000000
+      internalID: 3665622122971453149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_25
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 543
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d815bb67f35ee2c0800000000000000
+      internalID: -4400487463765337903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_26
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 543
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0185b4d1e7e042200800000000000000
+      internalID: 154264222057584656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_27
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 460
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37e54a3d71e18e90800000000000000
+      internalID: -7025086015756441796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_28
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 497
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77dc397dfaf4f14c0800000000000000
+      internalID: -4314642301342986889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_29
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 432
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e914758f52ac5a0e0800000000000000
+      internalID: -2259177373627367010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_30
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 431
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43ebfac09296aef0800000000000000
+      internalID: -97229191363435701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_31
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 447
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692d7496a8da83f80800000000000000
+      internalID: -8126554717606653290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_32
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 447
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411d4076de567cc60800000000000000
+      internalID: 7838345746771661076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_33
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 444
+        width: 68
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86ba1e02f9017990800000000000000
+      internalID: -7390114578314905973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_34
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 463
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f664b317347767f10800000000000000
+      internalID: 2267130593973847663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_35
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 463
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e417cf4968fb5f960800000000000000
+      internalID: 7635219328022638926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_36
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 498
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99390f1d46b79050800000000000000
+      internalID: 5807310686866979227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_37
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 351
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ce489e2a95f2ba0800000000000000
+      internalID: -6111567613081097127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_38
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 351
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00d18614cb8b97b0800000000000000
+      internalID: -5216422069071130614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_39
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 351
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c5b00e8ba276400800000000000000
+      internalID: 317269272274099298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_40
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 351
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b06b9b7af2fe88c0800000000000000
+      internalID: -3994988661801525069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_41
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 351
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f3d337a39d32240800000000000000
+      internalID: 4765891675752841090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_42
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 351
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac008a32703d9d50800000000000000
+      internalID: 6745601084036746401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_43
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 351
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ce3967fb5dd4670800000000000000
+      internalID: 8524704687987092612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_44
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 351
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a6dfeedbae46f60800000000000000
+      internalID: 8026798537360370269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_45
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 351
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708d0d50035f75660800000000000000
+      internalID: 7374632501447284743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_46
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 271
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ceae44cc11d21020800000000000000
+      internalID: 2311139480277266112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_47
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 304
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831f2d9282594f0a0800000000000000
+      internalID: -6848685133590761160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_48
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 300
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8932c1a1db99d62a0800000000000000
+      internalID: -6742564029637844072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_49
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 266
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1b196bf847db590800000000000000
+      internalID: -7656835630867828289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_50
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 296
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c251e3813fbb6440800000000000000
+      internalID: 4930244436474024649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_51
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 300
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b76091890a04aa30800000000000000
+      internalID: 4225513386325075894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_52
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 290
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558bc739d4848c3f0800000000000000
+      internalID: -880374229126825899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_53
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 302
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6555eb356216dd0800000000000000
+      internalID: -2494670577469139283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_54
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 302
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f567ea5c7ba9ce2f0800000000000000
+      internalID: -942208107941038497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_55
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 296
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffc0c8f212eb73a0800000000000000
+      internalID: -6666486252281212938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_56
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 273
+        width: 66
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b5f8e94367874d0800000000000000
+      internalID: -3136627172092978366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_57
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 281
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305bdcb3193c63f00800000000000000
+      internalID: 1096278587852305667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_58
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 267
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0773db971e35f7480800000000000000
+      internalID: -8899302110785620112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_59
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 281
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e680bbb03253c60800000000000000
+      internalID: 7797176863151386220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_60
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 281
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e09b6b6959d0280800000000000000
+      internalID: -9075433199538467292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_61
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 296
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef3175940e14ee10800000000000000
+      internalID: 2225937120863797222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_62
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 290
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fb37babe950c230800000000000000
+      internalID: 3657021766153518939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_63
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 278
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4082f8905f39dc740800000000000000
+      internalID: 5173954227555215364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_64
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 265
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82485f3b368cf36e0800000000000000
+      internalID: -1855544190906825688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_65
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 285
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae06734bdd12dc10800000000000000
+      internalID: 2076755205738073765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_66
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 279
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d813241c505e16f0800000000000000
+      internalID: -712043334672901929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_67
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 223
+        width: 38
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c14d2d8474e4ed0800000000000000
+      internalID: -2427924771005784966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_68
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 267
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5deea74a1e3c49320800000000000000
+      internalID: 2563889461775232725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_69
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 273
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42903920043bd8fc0800000000000000
+      internalID: -3490937048639796956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_70
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 273
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7da6a854525af10800000000000000
+      internalID: 2280269766938253290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_71
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 270
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cba0354c5919db0800000000000000
+      internalID: -4786880258478785465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_72
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 228
+        width: 104
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59584c65e26b52cb0800000000000000
+      internalID: -4889301510300334699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_73
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 201
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563d8edaf1e8f2050800000000000000
+      internalID: 5777993113652482917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_74
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 248
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409a16a6feb0cfcb0800000000000000
+      internalID: -4828971577538139900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_75
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 207
+        width: 66
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0022a37f0af43b0800000000000000
+      internalID: -5526021234067636050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_76
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 223
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f8b3282a97f3dc0800000000000000
+      internalID: -3657070633524949167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_77
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 223
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e695537e735d5330800000000000000
+      internalID: 3701206271334389480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_78
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 184
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b34624e8ceaf29a0800000000000000
+      internalID: -6255589179549924432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_79
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 190
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a74347421d0ff40800000000000000
+      internalID: 5760333877905488406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_80
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 207
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14fc1fb200cb96f20800000000000000
+      internalID: 3416468501260521281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_81
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 184
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea95ba5dda1b825e0800000000000000
+      internalID: -1934100679783392850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_82
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 94
+        width: 41
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d9c61857a149390800000000000000
+      internalID: -7812590361596093094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_83
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 152
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf130424a065c10d0800000000000000
+      internalID: -3450788612411477509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_84
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 104
+        width: 69
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a8abeda5dea6730800000000000000
+      internalID: 3993264994156972696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_85
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 171
+        width: 71
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc8e9709febf2de0800000000000000
+      internalID: -1355654986031264570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_86
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 126
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c176820837b6ff0f0800000000000000
+      internalID: -1081027241730087140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_87
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 175
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a940345e27ee82110800000000000000
+      internalID: 1236500274953258138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_88
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 186
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d62dda7d7d64e120800000000000000
+      internalID: 2442197283641304790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_89
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 180
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58cca889edb5d0a0800000000000000
+      internalID: -6857366046883657638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_90
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 144
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf28ea10ec23779f0800000000000000
+      internalID: -470851775664061701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_91
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 161
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a14cd722194a6eb0800000000000000
+      internalID: -4725884516644929117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 146
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e8941ddba572000800000000000000
+      internalID: 11077295398293044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_93
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 171
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a99ca320c66db980800000000000000
+      internalID: -8521541944496842336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_94
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 168
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdf849a2b60aeb10800000000000000
+      internalID: 2011427547988426184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_95
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 173
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5599b81067e58f320800000000000000
+      internalID: 2591925446476798293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_96
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 157
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82286d34db846d7a0800000000000000
+      internalID: -6352810246635355608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_97
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 155
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eaf783905f0058e0800000000000000
+      internalID: -1706847420026455324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_98
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 166
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483ed76473c508df0800000000000000
+      internalID: -180042592619207804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_99
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 161
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a508bc1f245327040800000000000000
+      internalID: 4643832727413162074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_100
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 157
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7790d307a2eb14690800000000000000
+      internalID: -7619600005053216393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_101
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 51
+        width: 99
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c6c5fc74093df10800000000000000
+      internalID: 2293335273357732898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_102
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 112
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3b6043c899410d0800000000000000
+      internalID: -3452966186839002174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_103
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 127
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fcf22997d1653400800000000000000
+      internalID: 303256128532446449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_104
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 150
+        width: 33
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bae4f704d7ac8a0800000000000000
+      internalID: -6284072614074864832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_105
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 127
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc3292fac4eeda80800000000000000
+      internalID: -8440057091341534025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_106
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 157
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067ec4db138ead3e0800000000000000
+      internalID: -2028053381850011808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_107
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 149
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600c5f41a4610e830800000000000000
+      internalID: 4098300168342192134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_108
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 153
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01492dd8eca6985c0800000000000000
+      internalID: -4212718541053193200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_109
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 105
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0201fdb0aa41810800000000000000
+      internalID: 1735198724408221929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_110
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 145
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9cb6a30bb3b9be0800000000000000
+      internalID: -1469515225325909532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_111
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 143
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5635e378d4ab510800000000000000
+      internalID: 1565649063726245294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_112
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 71
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b593d4a739c648b0800000000000000
+      internalID: -5168222281535351372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_113
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 15
+        width: 34
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04f8b58180664a40800000000000000
+      internalID: 5352071316586951691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_114
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 54
+        width: 93
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a927025eb3a7a50800000000000000
+      internalID: 6519589265850145361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_115
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 31
+        width: 46
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9368016441b6dfd0800000000000000
+      internalID: -2317470050991709281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_116
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 26
+        width: 30
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d383cf61b414a7a0800000000000000
+      internalID: -6366941220878187563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_117
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 54
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176990decf0c30010800000000000000
+      internalID: 1153978122078099057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_118
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 49
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c2c00697d30e370800000000000000
+      internalID: 8349741300656647248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_119
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 46
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24dcbffc9f9cb1400800000000000000
+      internalID: 296052275296324930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_120
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 55
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e5492aeae25c230800000000000000
+      internalID: 3658381599895215630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk City Atlas_121
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 35
+        width: 117
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c049437e56ca33a0800000000000000
+      internalID: -6684812587914673982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cyberpunk City Atlas_0: 8115517374849943559
+      Cyberpunk City Atlas_1: -151374829837205295
+      Cyberpunk City Atlas_10: -6521810740273278504
+      Cyberpunk City Atlas_100: -7619600005053216393
+      Cyberpunk City Atlas_101: 2293335273357732898
+      Cyberpunk City Atlas_102: -3452966186839002174
+      Cyberpunk City Atlas_103: 303256128532446449
+      Cyberpunk City Atlas_104: -6284072614074864832
+      Cyberpunk City Atlas_105: -8440057091341534025
+      Cyberpunk City Atlas_106: -2028053381850011808
+      Cyberpunk City Atlas_107: 4098300168342192134
+      Cyberpunk City Atlas_108: -4212718541053193200
+      Cyberpunk City Atlas_109: 1735198724408221929
+      Cyberpunk City Atlas_11: 1166548716711743849
+      Cyberpunk City Atlas_110: -1469515225325909532
+      Cyberpunk City Atlas_111: 1565649063726245294
+      Cyberpunk City Atlas_112: -5168222281535351372
+      Cyberpunk City Atlas_113: 5352071316586951691
+      Cyberpunk City Atlas_114: 6519589265850145361
+      Cyberpunk City Atlas_115: -2317470050991709281
+      Cyberpunk City Atlas_116: -6366941220878187563
+      Cyberpunk City Atlas_117: 1153978122078099057
+      Cyberpunk City Atlas_118: 8349741300656647248
+      Cyberpunk City Atlas_119: 296052275296324930
+      Cyberpunk City Atlas_12: 6275955263280581393
+      Cyberpunk City Atlas_120: 3658381599895215630
+      Cyberpunk City Atlas_121: -6684812587914673982
+      Cyberpunk City Atlas_13: -2784539882809142511
+      Cyberpunk City Atlas_14: -434904173134747633
+      Cyberpunk City Atlas_15: 5403206965784025756
+      Cyberpunk City Atlas_16: 1472610494682158578
+      Cyberpunk City Atlas_17: -8637479928399914101
+      Cyberpunk City Atlas_18: 177904383298201945
+      Cyberpunk City Atlas_19: -8164253638301004296
+      Cyberpunk City Atlas_2: 3191258529131605927
+      Cyberpunk City Atlas_20: 2719148685253797487
+      Cyberpunk City Atlas_21: 5148481453388815749
+      Cyberpunk City Atlas_22: 1147460054902045474
+      Cyberpunk City Atlas_23: -4816242992436536265
+      Cyberpunk City Atlas_24: 3665622122971453149
+      Cyberpunk City Atlas_25: -4400487463765337903
+      Cyberpunk City Atlas_26: 154264222057584656
+      Cyberpunk City Atlas_27: -7025086015756441796
+      Cyberpunk City Atlas_28: -4314642301342986889
+      Cyberpunk City Atlas_29: -2259177373627367010
+      Cyberpunk City Atlas_3: 2871564273319814602
+      Cyberpunk City Atlas_30: -97229191363435701
+      Cyberpunk City Atlas_31: -8126554717606653290
+      Cyberpunk City Atlas_32: 7838345746771661076
+      Cyberpunk City Atlas_33: -7390114578314905973
+      Cyberpunk City Atlas_34: 2267130593973847663
+      Cyberpunk City Atlas_35: 7635219328022638926
+      Cyberpunk City Atlas_36: 5807310686866979227
+      Cyberpunk City Atlas_37: -6111567613081097127
+      Cyberpunk City Atlas_38: -5216422069071130614
+      Cyberpunk City Atlas_39: 317269272274099298
+      Cyberpunk City Atlas_4: 8364500195521446847
+      Cyberpunk City Atlas_40: -3994988661801525069
+      Cyberpunk City Atlas_41: 4765891675752841090
+      Cyberpunk City Atlas_42: 6745601084036746401
+      Cyberpunk City Atlas_43: 8524704687987092612
+      Cyberpunk City Atlas_44: 8026798537360370269
+      Cyberpunk City Atlas_45: 7374632501447284743
+      Cyberpunk City Atlas_46: 2311139480277266112
+      Cyberpunk City Atlas_47: -6848685133590761160
+      Cyberpunk City Atlas_48: -6742564029637844072
+      Cyberpunk City Atlas_49: -7656835630867828289
+      Cyberpunk City Atlas_5: 8607234813630462576
+      Cyberpunk City Atlas_50: 4930244436474024649
+      Cyberpunk City Atlas_51: 4225513386325075894
+      Cyberpunk City Atlas_52: -880374229126825899
+      Cyberpunk City Atlas_53: -2494670577469139283
+      Cyberpunk City Atlas_54: -942208107941038497
+      Cyberpunk City Atlas_55: -6666486252281212938
+      Cyberpunk City Atlas_56: -3136627172092978366
+      Cyberpunk City Atlas_57: 1096278587852305667
+      Cyberpunk City Atlas_58: -8899302110785620112
+      Cyberpunk City Atlas_59: 7797176863151386220
+      Cyberpunk City Atlas_6: -9202216432382415663
+      Cyberpunk City Atlas_60: -9075433199538467292
+      Cyberpunk City Atlas_61: 2225937120863797222
+      Cyberpunk City Atlas_62: 3657021766153518939
+      Cyberpunk City Atlas_63: 5173954227555215364
+      Cyberpunk City Atlas_64: -1855544190906825688
+      Cyberpunk City Atlas_65: 2076755205738073765
+      Cyberpunk City Atlas_66: -712043334672901929
+      Cyberpunk City Atlas_67: -2427924771005784966
+      Cyberpunk City Atlas_68: 2563889461775232725
+      Cyberpunk City Atlas_69: -3490937048639796956
+      Cyberpunk City Atlas_7: 3776378029055833508
+      Cyberpunk City Atlas_70: 2280269766938253290
+      Cyberpunk City Atlas_71: -4786880258478785465
+      Cyberpunk City Atlas_72: -4889301510300334699
+      Cyberpunk City Atlas_73: 5777993113652482917
+      Cyberpunk City Atlas_74: -4828971577538139900
+      Cyberpunk City Atlas_75: -5526021234067636050
+      Cyberpunk City Atlas_76: -3657070633524949167
+      Cyberpunk City Atlas_77: 3701206271334389480
+      Cyberpunk City Atlas_78: -6255589179549924432
+      Cyberpunk City Atlas_79: 5760333877905488406
+      Cyberpunk City Atlas_8: 2017512814807790065
+      Cyberpunk City Atlas_80: 3416468501260521281
+      Cyberpunk City Atlas_81: -1934100679783392850
+      Cyberpunk City Atlas_82: -7812590361596093094
+      Cyberpunk City Atlas_83: -3450788612411477509
+      Cyberpunk City Atlas_84: 3993264994156972696
+      Cyberpunk City Atlas_85: -1355654986031264570
+      Cyberpunk City Atlas_86: -1081027241730087140
+      Cyberpunk City Atlas_87: 1236500274953258138
+      Cyberpunk City Atlas_88: 2442197283641304790
+      Cyberpunk City Atlas_89: -6857366046883657638
+      Cyberpunk City Atlas_9: 5665602414638749340
+      Cyberpunk City Atlas_90: -470851775664061701
+      Cyberpunk City Atlas_91: -4725884516644929117
+      Cyberpunk City Atlas_92: 11077295398293044
+      Cyberpunk City Atlas_93: -8521541944496842336
+      Cyberpunk City Atlas_94: 2011427547988426184
+      Cyberpunk City Atlas_95: 2591925446476798293
+      Cyberpunk City Atlas_96: -6352810246635355608
+      Cyberpunk City Atlas_97: -1706847420026455324
+      Cyberpunk City Atlas_98: -180042592619207804
+      Cyberpunk City Atlas_99: 4643832727413162074
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
