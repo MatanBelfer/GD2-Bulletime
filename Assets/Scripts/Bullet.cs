@@ -23,7 +23,7 @@ public class Bullet : MonoBehaviour
 
         isStuck = true;
         rb.linearVelocity = Vector2.zero;
-        rb.isKinematic = true; 
+        rb.bodyType= RigidbodyType2D.Kinematic; 
         
         transform.SetParent(collision.transform);
         
