@@ -43,8 +43,6 @@ public class Shoot : MonoBehaviour
     {
         Bullet bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity).GetComponent<Bullet>();
 
-        bullet.TargetTag = GameManager.EnemyTag;
-        bullet.IgnoreTag = GameManager.PlayerTag;
         shotBullets.Push(bullet);
         return bullet;
     }
@@ -69,6 +67,7 @@ public class Shoot : MonoBehaviour
 
     private void GatherBullet(Bullet gathered)
     {
+        gathered.OnReachEvent -= GatherBullet;
         _currentAmmo++;
         UpdateCanvas();
     }

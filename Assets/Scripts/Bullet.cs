@@ -5,25 +5,24 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
 
+    private const string TERRAIN_TAG = "Terrain";
     public event Action<Bullet> OnReachEvent;
 
-    // Set Through Spawner
-    [HideInInspector] public string TargetTag;
-    [HideInInspector] public string IgnoreTag;
     [HideInInspector] public Vector3 Direction;
 
     // Set For Prefab
     [SerializeField] private int damage;
     [SerializeField] private float speed;
     private bool _isMoving;
-
+    private string _ignoreTag;
 
     void Start()
     {
+        _ignoreTag = gameObject.tag;
         StartCoroutine(nameof(Move));
     }
 
-    
+
     private IEnumerator Move()
     {
         _isMoving = true;
@@ -36,13 +35,15 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.CompareTag(_ignoreTag)) return;
+
         IDamageable hit;
         if (other.TryGetComponent<IDamageable>(out hit))
         {
             hit.OnHit();
         }
 
-        if (other.CompareTag("Terrain"))
+        if (other.CompareTag(TERRAIN_TAG))
         {
             _isMoving = false;
         }
@@ -57,12 +58,13 @@ public class Bullet : MonoBehaviour
     private IEnumerator RewindTowards(Transform target)
     {
         yield return null;
+        _ignoreTag = TERRAIN_TAG;
         _isMoving = true;
         while (_isMoving)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, Time.deltaTime * speed * 1.5f);
             transform.up = target.position - transform.position; //Set correct rotation
-            if (Vector2.Distance(transform.position, target.position) <= 0.05f)
+            if(Vector2.Distance(transform.position, target.position) <= 0.05f)
             {
                 OnReachEvent?.Invoke(this);
                 DestroyBullet();
