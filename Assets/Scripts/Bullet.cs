@@ -52,6 +52,7 @@ public class Bullet : MonoBehaviour
     public void Rewind(Transform target)
     {
         _isMoving = false; //To reset Move() if still in the air.
+        GetComponent<SpriteRenderer>().color = Color.gold;
         StartCoroutine(RewindTowards(target));
     }
 

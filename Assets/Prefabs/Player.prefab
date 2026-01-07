@@ -103,7 +103,6 @@ GameObject:
   - component: {fileID: 8006587371001239921}
   - component: {fileID: 3599505432923334287}
   - component: {fileID: 6418951135025934632}
-  - component: {fileID: 3213730393626757463}
   - component: {fileID: 1400081709468342410}
   m_Layer: 0
   m_Name: Player
@@ -186,28 +185,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Shoot
   bulletPrefab: {fileID: 3206324485848968155, guid: 8a5b3e1b072aedb4f9247ba527ee7af4, type: 3}
   magazineSize: 7
---- !u!95 &3213730393626757463
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5928300572124346604}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!70 &1400081709468342410
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -392,6 +369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3219325177711396482}
   - component: {fileID: 1319074648506715582}
+  - component: {fileID: 7922275267971687167}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -474,3 +452,25 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!95 &7922275267971687167
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8000536944199411663}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d0d89450d545e8341a82a0d7d8b8f121, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

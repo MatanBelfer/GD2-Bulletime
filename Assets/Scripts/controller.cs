@@ -11,12 +11,14 @@ public class Controller : MonoBehaviour
     [SerializeField] private float speed = 30f;
     private Rigidbody2D _rb;
     private Shoot _shoot;
+    private Animator _anim;
 
 
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
         _shoot = GetComponent<Shoot>();
+        _anim = GetComponentInChildren<Animator>();
     }
 
 
@@ -29,6 +31,8 @@ public class Controller : MonoBehaviour
     {
         Vector2 movement = moveAction.action.ReadValue<Vector2>();
         _rb.MovePosition(_rb.position + movement * Time.fixedDeltaTime * speed);
+        _anim.SetInteger("horizontal", (int)movement.x);
+        _anim.SetInteger("vertical", (int)movement.y);
     }
 
 
