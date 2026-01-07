@@ -2,22 +2,21 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class controller : MonoBehaviour
-{
-    [SerializeField] private GameObject bulletPrefab;
+public class Controller : MonoBehaviour
+{    
     [SerializeField] private InputActionReference shootAction;
-    [SerializeField] private InputActionReference aimAction;
-
+    [SerializeField] private InputActionReference rewindAction;
+    [SerializeField] private InputActionReference moveAction;
 
     [SerializeField] private float speed = 30f;
-    [SerializeField] private InputActionReference moveAction;
     private Rigidbody2D _rb;
-    private Vector2 move;
+    private Shoot _shoot;
 
 
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _shoot = GetComponent<Shoot>();
     }
 
 
@@ -26,26 +25,10 @@ public class controller : MonoBehaviour
         HandleMovement();
     }
 
-
-    private void HandleShooting()
-    {
-        Bullet bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity).GetComponent<Bullet>();
-        Vector2 mouseScreenPosition = aimAction.action.ReadValue<Vector2>();
-        Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(new Vector3(mouseScreenPosition.x, mouseScreenPosition.y, Mathf.Abs(Camera.main.transform.position.z)));
- 
-        bullet.direction = (mouseWorldPosition - transform.position);
-        bullet.direction.z = 0;
-        bullet.direction.Normalize();
-
-        float angle = Mathf.Atan2(bullet.direction.y, bullet.direction.x) * Mathf.Rad2Deg;
-        bullet.transform.rotation = Quaternion.Euler(0, 0, angle);
-        bullet.targetTag = GameManager.EnemyTag;
-        bullet.ignoreTag = GameManager.PlayerTag;
-    }
-
     private void HandleMovement()
     {
-        _rb.MovePosition(_rb.position + move * (Time.fixedDeltaTime * speed));
+        Vector2 movement = moveAction.action.ReadValue<Vector2>();
+        _rb.MovePosition(_rb.position + movement * Time.fixedDeltaTime * speed);
     }
 
 
@@ -55,36 +38,33 @@ public class controller : MonoBehaviour
     {
         shootAction.action.Enable();
         shootAction.action.performed += OnShoot;
-        aimAction.action.Enable();
 
-
+        rewindAction.action.Enable();
+        rewindAction.action.performed += OnRewind;
         moveAction.action.Enable();
-        moveAction.action.performed += OnMove;
-        moveAction.action.canceled += OnMove;
     }
 
     private void OnDisable()
     {
         shootAction.action.Disable();
         shootAction.action.performed -= OnShoot;
-        aimAction.action.Disable();
 
+        rewindAction.action.Disable();
+        rewindAction.action.performed -= OnRewind;
         moveAction.action.Disable();
-        moveAction.action.performed -= OnMove;
-        moveAction.action.canceled -= OnMove;
     }
-
 
     private void OnShoot(InputAction.CallbackContext context)
     {
-        HandleShooting();
+        var mouse = Mouse.current;
+        _shoot.RequestShoot(mouse.position.ReadValue());
     }
 
-
-    private void OnMove(InputAction.CallbackContext context)
+    private void OnRewind(InputAction.CallbackContext context)
     {
-        move = context.ReadValue<Vector2>();
+        _shoot.RequestRewind();
     }
+
 
     #endregion
 }

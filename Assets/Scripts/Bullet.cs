@@ -1,48 +1,79 @@
 using System;
+using System.Collections;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class Bullet : MonoBehaviour
 {
 
-    public event UnityAction<GameObject,int> OnHit;
-    
+    public event Action<Bullet> OnReachEvent;
+
+    // Set Through Spawner
+    [HideInInspector] public string TargetTag;
+    [HideInInspector] public string IgnoreTag;
+    [HideInInspector] public Vector3 Direction;
+
     // Set For Prefab
     [SerializeField] private int damage;
     [SerializeField] private float speed;
-    [SerializeField] private float timeToDie;
-    private float _timeAlive;
-    
-    // Set Through Spawner
-    [HideInInspector] public string targetTag;
-    [HideInInspector] public string ignoreTag;
-    [HideInInspector] public Vector3 direction;
-    
+    private bool _isMoving;
+
 
     void Start()
     {
-        _timeAlive = 0f;
+        StartCoroutine(nameof(Move));
     }
+
     
-    
-    private void Update()
+    private IEnumerator Move()
     {
-        transform.position += direction * (speed * Time.deltaTime);
-        
-        _timeAlive += Time.deltaTime;
-        if (_timeAlive > timeToDie) {
-            Destroy(gameObject);
+        _isMoving = true;
+        while (_isMoving)
+        {
+            transform.position += transform.up * speed * Time.deltaTime;
+            yield return null;
         }
     }
 
-
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (targetTag != "" && other.CompareTag(targetTag)) {
-            OnHit?.Invoke(other.gameObject,damage);
+        IDamageable hit;
+        if (other.TryGetComponent<IDamageable>(out hit))
+        {
+            hit.OnHit();
         }
-        
-        if ((ignoreTag != "" && !other.CompareTag(ignoreTag)) || ignoreTag == "")
-            Destroy(gameObject);
+
+        if (other.CompareTag("Terrain"))
+        {
+            _isMoving = false;
+        }
+    }
+
+    public void Rewind(Transform target)
+    {
+        _isMoving = false; //To reset Move() if still in the air.
+        StartCoroutine(RewindTowards(target));
+    }
+
+    private IEnumerator RewindTowards(Transform target)
+    {
+        yield return null;
+        _isMoving = true;
+        while (_isMoving)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, target.position, Time.deltaTime * speed * 1.5f);
+            transform.up = target.position - transform.position; //Set correct rotation
+            if (Vector2.Distance(transform.position, target.position) <= 0.05f)
+            {
+                OnReachEvent?.Invoke(this);
+                DestroyBullet();
+            }
+            yield return null;
+        }
+    }
+
+    private void DestroyBullet()
+    {
+        StopAllCoroutines();
+        Destroy(this.gameObject);
     }
 }

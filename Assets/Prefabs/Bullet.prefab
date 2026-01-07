@@ -102,7 +102,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1774920408456883987}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -170,9 +170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 876953fc92224bd4e94f1a7274517159, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  TargetTag: 
+  IgnoreTag: 
+  Direction: {x: 0, y: 0, z: 0}
   damage: 1
-  speed: 10
-  timeToDie: 2
-  targetTag: 
-  ignoreTag: 
-  direction: {x: 0, y: 0, z: 0}
+  speed: 20
