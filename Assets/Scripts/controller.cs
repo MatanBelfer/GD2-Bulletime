@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Controller : MonoBehaviour
-{    
+{
     [SerializeField] private InputActionReference shootAction;
     [SerializeField] private InputActionReference rewindAction;
     [SerializeField] private InputActionReference moveAction;
@@ -12,6 +12,7 @@ public class Controller : MonoBehaviour
     private Rigidbody2D _rb;
     private Shoot _shoot;
     private Animator _anim;
+    private bool _isWalking;
 
 
     private void Awake()
@@ -31,8 +32,17 @@ public class Controller : MonoBehaviour
     {
         Vector2 movement = moveAction.action.ReadValue<Vector2>();
         _rb.MovePosition(_rb.position + movement * Time.fixedDeltaTime * speed);
-        _anim.SetInteger("horizontal", (int)movement.x);
-        _anim.SetInteger("vertical", (int)movement.y);
+
+        if (movement.x != 0 || movement.y != 0) //Setting up idle animation
+        {
+            _anim.SetFloat("horizontal", movement.normalized.x);
+            _anim.SetFloat("vertical", movement.normalized.y);
+            _anim.SetBool("isWalking", true);
+        }
+        else
+        {
+            _anim.SetBool("isWalking", false);
+        }
     }
 
 

@@ -46,12 +46,14 @@ public class Bullet : MonoBehaviour
         if (other.CompareTag(TERRAIN_TAG))
         {
             _isMoving = false;
+            transform.parent = other.transform; //To allow the bullet to move along when it's stuck
         }
     }
 
     public void Rewind(Transform target)
     {
         _isMoving = false; //To reset Move() if still in the air.
+        transform.parent = null;
         GetComponent<SpriteRenderer>().color = Color.gold;
         StartCoroutine(RewindTowards(target));
     }
