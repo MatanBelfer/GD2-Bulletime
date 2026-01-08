@@ -34,7 +34,6 @@ public abstract class Enemy : MonoBehaviour, IDamageable
 
     protected virtual IEnumerator Scan()
     {
-        anim.SetTrigger("isScanning");
         targetToChase = null;
         while(targetToChase == null)
         {
@@ -57,7 +56,6 @@ public abstract class Enemy : MonoBehaviour, IDamageable
     protected virtual IEnumerator Chase()
     {
         anim.SetTrigger("isChasing");
-        Debug.Log("Set Chasing Trigger");
         while(Vector2.Distance(transform.position, targetToChase.position) < scanRadius)
         {
             transform.position = Vector2.MoveTowards(transform.position, targetToChase.position, moveSpeed * Time.deltaTime);
@@ -68,6 +66,7 @@ public abstract class Enemy : MonoBehaviour, IDamageable
             }
             yield return null;
         }
+        anim.SetTrigger("isScanning");
         yield return new WaitForSeconds(SCAN_INTERVAL);
         ChangeState(Scan());
     }
