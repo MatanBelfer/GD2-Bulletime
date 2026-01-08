@@ -40,13 +40,13 @@ public class Bullet : MonoBehaviour
         IDamageable hit;
         if (other.TryGetComponent<IDamageable>(out hit))
         {
-            hit.OnHit();
+            hit.OnHit(damage);
         }
 
         if (other.CompareTag(TERRAIN_TAG))
         {
             _isMoving = false;
-            transform.parent = other.transform; //To allow the bullet to move along when it's stuck
+            transform.parent = other.transform; //To allow the bullet to move along when it's stuck, can do some puzzles with this
         }
     }
 

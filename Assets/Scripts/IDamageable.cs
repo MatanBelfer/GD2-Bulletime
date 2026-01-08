@@ -2,5 +2,5 @@
 
 public interface IDamageable
 {
-    public void OnHit();
+    public void OnHit(int damage);
 }
