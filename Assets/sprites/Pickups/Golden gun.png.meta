@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 14cb76012c095be48965ecc84a6c02ce
+guid: 72d8fa2f97bfa2641973e35377450c1f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4335332471415896898
-    second: One health_0
+      213: -639700331961946798
+    second: Golden gun_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: One health_0
+      name: Golden gun_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2
-        width: 20
-        height: 10
+        x: 7
+        y: 9
+        width: 16
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb40a0a361ec5d3c0800000000000000
-      internalID: -4335332471415896898
+      spriteID: 25d65b6ffe35f17f0800000000000000
+      internalID: -639700331961946798
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      One health_0: -4335332471415896898
+      Golden gun_0: -639700331961946798
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

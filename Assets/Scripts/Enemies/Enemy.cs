@@ -5,18 +5,19 @@ public abstract class Enemy : MonoBehaviour, IDamageable
 {
     private const float SCAN_INTERVAL = 1f;
     [SerializeField] protected int health = 5;
+    [SerializeField] protected int damage;
     [SerializeField] protected float moveSpeed = 10;
     [SerializeField] protected float scanRadius = 5;
-    [SerializeField] protected float attackRangeDistance = 0.5f;
+    [SerializeField] protected float attackRangeRadius = 0.5f;
     protected Coroutine state;
+    protected Animator anim;
 
     private Transform targetToChase;
 
-    private Animator _anim;
 
     void Awake()
     {
-        _anim = GetComponent<Animator>();    
+        anim = GetComponentInChildren<Animator>();    
     }
 
     void Start()
@@ -33,11 +34,11 @@ public abstract class Enemy : MonoBehaviour, IDamageable
 
     protected virtual IEnumerator Scan()
     {
+        anim.SetTrigger("isScanning");
         targetToChase = null;
         while(targetToChase == null)
         {
             var collided = Physics2D.OverlapCircleAll(transform.position, scanRadius);
-            Debug.Log($"{gameObject.name}: Scanned {collided.Length} objects.");
             foreach(var collider in collided)
             {
                 if(collider.CompareTag("Player"))
@@ -55,16 +56,18 @@ public abstract class Enemy : MonoBehaviour, IDamageable
 
     protected virtual IEnumerator Chase()
     {
+        anim.SetTrigger("isChasing");
+        Debug.Log("Set Chasing Trigger");
         while(Vector2.Distance(transform.position, targetToChase.position) < scanRadius)
         {
             transform.position = Vector2.MoveTowards(transform.position, targetToChase.position, moveSpeed * Time.deltaTime);
-            if(Vector2.Distance(transform.position, targetToChase.position) <= attackRangeDistance)
+            if((transform.position - targetToChase.position).x < 0) //To flip- add later
+            if(Vector2.Distance(transform.position, targetToChase.position) <= attackRangeRadius)
             {
                 ChangeState(Attack());
             }
             yield return null;
         }
-        Debug.Log($"{gameObject.name}: Out of range: scanning again.");
         yield return new WaitForSeconds(SCAN_INTERVAL);
         ChangeState(Scan());
     }
@@ -76,13 +79,13 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         health -= damage;
         if(health <= 0)
         {
-            _anim.SetTrigger("onDeath");
+            anim.SetTrigger("onDeath");
         }
     }
 
-    protected virtual void OnDrawGizmos()
+    protected virtual void OnDrawGizmosSelected()
     {
      Gizmos.DrawWireSphere(transform.position, scanRadius);
-        Gizmos.DrawWireSphere(transform.position, attackRangeDistance / 2);
+        Gizmos.DrawWireSphere(transform.position, attackRangeRadius);
     }
 }
