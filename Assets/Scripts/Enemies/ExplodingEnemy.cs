@@ -15,19 +15,25 @@ public class ExplodingEnemy : Enemy
 
     public void Explode()
     {
-        Instantiate(explosion);
-        foreach(var collided in Physics2D.OverlapCircleAll(transform.position, scanRadius))
+        explosion.gameObject.SetActive(true);
+        foreach (var collided in Physics2D.OverlapCircleAll(transform.position, scanRadius))
         {
-            if(collided.CompareTag("Player"))
+            if (collided.CompareTag("Player"))
             {
-                collided.GetComponent<IDamageable>().OnHit(damage);
+                Debug.Log($"{gameObject.name}: Damaged player for {damage} damage.");
+                IDamageable damaged;
+                if (collided.TryGetComponent<IDamageable>(out damaged))
+                {
+                    damaged.OnHit(damage);
+                }
             }
         }
+        Destroy(this.gameObject, 1f);
     }
 
     protected override void OnDrawGizmosSelected()
     {
         base.OnDrawGizmosSelected();
-            Gizmos.DrawWireSphere(transform.position, explosionRadius);
+        Gizmos.DrawWireSphere(transform.position, explosionRadius);
     }
 }

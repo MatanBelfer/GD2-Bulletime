@@ -42,7 +42,7 @@ public class Shoot : MonoBehaviour
     private Bullet CreateBullet()
     {
         Bullet bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity).GetComponent<Bullet>();
-
+        bullet.SetOwner(this.gameObject);
         shotBullets.Push(bullet);
         return bullet;
     }

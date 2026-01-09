@@ -9,15 +9,17 @@ public abstract class Enemy : MonoBehaviour, IDamageable
     [SerializeField] protected float moveSpeed = 10;
     [SerializeField] protected float scanRadius = 5;
     [SerializeField] protected float attackRangeRadius = 0.5f;
+    protected Transform targetToChase;
     protected Coroutine state;
     protected Animator anim;
+    private SpriteRenderer _sr;
 
-    private Transform targetToChase;
 
 
-    void Awake()
+    protected virtual void Awake()
     {
-        anim = GetComponentInChildren<Animator>();    
+        anim = GetComponent<Animator>();
+        _sr = GetComponent<SpriteRenderer>(); 
     }
 
     void Start()
@@ -59,7 +61,9 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         while(Vector2.Distance(transform.position, targetToChase.position) < scanRadius)
         {
             transform.position = Vector2.MoveTowards(transform.position, targetToChase.position, moveSpeed * Time.deltaTime);
-            if((transform.position - targetToChase.position).x < 0) //To flip- add later
+            
+            _sr.flipX = CheckFlip();
+
             if(Vector2.Distance(transform.position, targetToChase.position) <= attackRangeRadius)
             {
                 ChangeState(Attack());
@@ -71,6 +75,10 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         ChangeState(Scan());
     }
 
+    private bool CheckFlip()
+    {
+        return (transform.position - targetToChase.position).x < 0;
+    }
     protected abstract IEnumerator Attack();
 
     public void OnHit(int damage)

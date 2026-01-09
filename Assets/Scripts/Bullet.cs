@@ -15,6 +15,7 @@ public class Bullet : MonoBehaviour
     [SerializeField] private float speed;
     private bool _isMoving;
     private string _ignoreTag;
+    private GameObject _owner;
 
     void Start()
     {
@@ -22,7 +23,10 @@ public class Bullet : MonoBehaviour
         StartCoroutine(nameof(Move));
     }
 
-
+    public void SetOwner(GameObject ownerObject)
+    {
+        _owner = ownerObject;
+    }
     private IEnumerator Move()
     {
         _isMoving = true;
@@ -35,7 +39,7 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag(_ignoreTag)) return;
+        if (other.CompareTag(_ignoreTag) || _owner == other.gameObject) return;
 
         IDamageable hit;
         if (other.TryGetComponent<IDamageable>(out hit))
