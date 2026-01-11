@@ -42,7 +42,7 @@ public abstract class Enemy : MonoBehaviour, IDamageable
             var collided = Physics2D.OverlapCircleAll(transform.position, scanRadius);
             foreach(var collider in collided)
             {
-                if(collider.CompareTag("Player"))
+                if(collider.CompareTag(GameManager.PlayerTag))
                 {
                     targetToChase = collider.transform;
                     ChangeState(Chase());

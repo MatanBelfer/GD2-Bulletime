@@ -21,6 +21,6 @@ public class RangedEnemy : Enemy
             Debug.Log("shoot");
             yield return new WaitForSeconds(attackInterval);
         }
-        //ChangeState(Chase());
+        ChangeState(Chase());
     }
 }

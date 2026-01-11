@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 4336694293670074002}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.66569, y: -2.73036, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RangedEnemy
   health: 5
-  damage: 0
+  damage: 1
   moveSpeed: 1
   scanRadius: 9
   attackRangeRadius: 7
@@ -151,6 +151,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Shoot
   bulletPrefab: {fileID: 4020307205854137375, guid: 4f46da9923619f241bdca6a05ef7a658, type: 3}
   magazineSize: 999
+  ammoInMagRatio: 1
+  placedBullets: []
 --- !u!50 &8832776955553443742
 Rigidbody2D:
   serializedVersion: 5
