@@ -8,6 +8,8 @@ public class UiManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI ammo;
 
     [SerializeField] private GameObject[] healthBits;
+    
+    [SerializeField] private GameObject[] ammoBits;
 
     void Awake()
     {
@@ -21,6 +23,14 @@ public class UiManager : MonoBehaviour
 
     public void UpdateAmmo(int currentAmmo, int magazineSize)
     {
+        for (int i = 0; i < ammoBits.Length; i++)
+        {
+            if (ammoBits[i] != null)
+            {
+                    ammoBits[i].gameObject.SetActive(i < currentAmmo); 
+            }
+        }
+        
         ammo.SetText($"{currentAmmo} / {magazineSize}");
     }
 
