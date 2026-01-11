@@ -27,6 +27,11 @@ public class Bullet : MonoBehaviour
     {
         _owner = ownerObject;
     }
+
+    public void setIgnoreTag(string tag)
+    {
+        _ignoreTag = tag;
+    }
     private IEnumerator Move()
     {
         _isMoving = true;

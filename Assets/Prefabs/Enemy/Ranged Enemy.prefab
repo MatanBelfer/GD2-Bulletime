@@ -151,6 +151,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Shoot
   bulletPrefab: {fileID: 4020307205854137375, guid: 4f46da9923619f241bdca6a05ef7a658, type: 3}
   magazineSize: 999
+  ammoInMagRatio: 1
+  placedBullets: []
 --- !u!50 &8832776955553443742
 Rigidbody2D:
   serializedVersion: 5
