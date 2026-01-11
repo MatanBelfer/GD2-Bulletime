@@ -18,7 +18,7 @@ public class ExplodingEnemy : Enemy
         explosion.gameObject.SetActive(true);
         foreach (var collided in Physics2D.OverlapCircleAll(transform.position, scanRadius))
         {
-            if (collided.CompareTag("Player"))
+            if (collided.CompareTag(GameManager.PlayerTag))
             {
                 Debug.Log($"{gameObject.name}: Damaged player for {damage} damage.");
                 IDamageable damaged;

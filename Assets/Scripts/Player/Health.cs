@@ -32,7 +32,7 @@ public class Health : MonoBehaviour, IDamageable, IHealable
     
     private void UpdateHealthBar()
     {
-        if (gameObject.CompareTag("Player"))
+        if (gameObject.CompareTag(GameManager.PlayerTag))
         {
             UiManager.Instance.UpdateHealth((int)_currentHealth);
         }

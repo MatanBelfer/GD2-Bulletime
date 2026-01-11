@@ -55,7 +55,7 @@ public class Shoot : MonoBehaviour
             
             Bullet bullet = Instantiate(bulletPrefab, spawnPos, Quaternion.identity, transform);
             bullet.name = $"PlacedBullet_{index}";
-            bullet.SetOwner(gameObject);   bullet.setIgnoreTag("Player");
+            bullet.SetOwner(gameObject);   bullet.setIgnoreTag(gameObject.tag);
             bullet.GetComponent<SpriteRenderer>().color = Color.cyan;
             bullet.enabled = false; // Disable script in editor
             
@@ -149,7 +149,7 @@ public class Shoot : MonoBehaviour
 
     private void UpdateCanvas()
     {
-        if (gameObject.CompareTag("Player"))
+        if (gameObject.CompareTag(GameManager.PlayerTag))
             UiManager.Instance.UpdateAmmo(_currentAmmo, magazineSize);
     }
 }
