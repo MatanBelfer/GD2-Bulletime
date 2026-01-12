@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a6ee1549c731d45428ebd705fb8059c5
+guid: 9158e2f86ac67ba4592bcafa1ddcc7a6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1282284907110354048
-    second: Silver gun_0
+      213: -4436948075455868981
+    second: Makarov_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Silver gun_0
+      name: Makarov_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 9
-        width: 16
-        height: 13
+        x: 0
+        y: 0
+        width: 64
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 083b7dabba8643ee0800000000000000
-      internalID: -1282284907110354048
+      spriteID: bcf899bbb3bcc62c0800000000000000
+      internalID: -4436948075455868981
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Silver gun_0: -1282284907110354048
+      Makarov_0: -4436948075455868981
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

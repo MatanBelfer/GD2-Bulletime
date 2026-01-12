@@ -18,7 +18,7 @@ public class RangedEnemy : Enemy
         while(Vector2.Distance(transform.position, targetToChase.position) <= attackRangeRadius)
         {
             _shoot.RequestShoot(targetToChase.position);
-            Debug.Log("shoot");
+            //Debug.Log("shoot");
             yield return new WaitForSeconds(attackInterval);
         }
         ChangeState(Chase());

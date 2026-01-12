@@ -186,6 +186,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 3206324485848968155, guid: 8a5b3e1b072aedb4f9247ba527ee7af4, type: 3}
   magazineSize: 7
   ammoInMagRatio: 1
+  doesHaveWeapon: 0
   placedBullets: []
 --- !u!70 &1400081709468342410
 CapsuleCollider2D:

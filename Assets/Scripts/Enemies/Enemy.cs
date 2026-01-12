@@ -31,7 +31,7 @@ public abstract class Enemy : MonoBehaviour, IDamageable
     {
         if(state != null) StopCoroutine(state);
         state = StartCoroutine(newState);
-        Debug.Log($"{gameObject.name}: Changed state to {newState}");
+        // Debug.Log($"{gameObject.name}: Changed state to {newState}");
     }
 
     protected virtual IEnumerator Scan()

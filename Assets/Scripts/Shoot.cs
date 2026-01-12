@@ -14,6 +14,8 @@ public class Shoot : MonoBehaviour
     private int _ammoInMag;
     private int _ammoOutsideMag;
 
+    [HideInInspector] public bool doesHaveWeapon = false;
+
     [SerializeField] private Stack<Bullet> shotBullets = new();
     [SerializeField] private List<Bullet> placedBullets = new List<Bullet>();
 
@@ -92,8 +94,10 @@ public class Shoot : MonoBehaviour
 
     public void RequestShoot(Vector2 targetPos)
     {
-        if (_currentAmmo == 0)
-        {
+        if (!doesHaveWeapon)
+            return;
+        
+        if (_currentAmmo == 0) {
             Debug.LogWarning("Magazine empty, no bullets to shoot!");
             return;
         }
@@ -103,6 +107,9 @@ public class Shoot : MonoBehaviour
 
     public void RequestRewind()
     {
+        if (!doesHaveWeapon)
+            return;
+        
         if (shotBullets.Count == 0)
         {
             Debug.LogWarning("No bullets to rewind!");
