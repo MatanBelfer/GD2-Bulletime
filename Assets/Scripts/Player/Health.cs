@@ -16,8 +16,10 @@ public class Health : MonoBehaviour, IDamageable, IHealable
     {
         _currentHealth -= damage;
         if (_currentHealth <= 0)
-            Destroy(gameObject);
-        UpdateHealthBar();
+            GetComponent<Animator>().SetTrigger("onDeath");
+
+        if (gameObject.CompareTag(GameManager.PlayerTag))
+            UpdateHealthBar();
 
 
         Debug.Log($"{gameObject.name}: Hit for {damage} damage.");
@@ -29,7 +31,7 @@ public class Health : MonoBehaviour, IDamageable, IHealable
         _currentHealth += health;
         UpdateHealthBar();
     }
-    
+
     private void UpdateHealthBar()
     {
         if (gameObject.CompareTag(GameManager.PlayerTag))

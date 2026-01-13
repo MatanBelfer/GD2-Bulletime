@@ -38,7 +38,6 @@ public class Pickup : MonoBehaviour
         transform.localScale = new Vector3(1, 1, 1) * GameManager.Instance.pickupSizeMultiplier;
     }
 
-
     private void OnInteraction(InputAction.CallbackContext context)
     {
         if (_isPlayerInArea) {
@@ -54,6 +53,7 @@ public class Pickup : MonoBehaviour
     {
         if (other.CompareTag(GameManager.PlayerTag)) {
             _isPlayerInArea = true;
+            Debug.Log("Player in area");
             OnEnteredArea?.Invoke(this);
         }
     }
@@ -63,6 +63,7 @@ public class Pickup : MonoBehaviour
     {
         if (other.CompareTag(GameManager.PlayerTag)) {
             _isPlayerInArea = false;
+                        Debug.Log("Player outside area");
             OnExitedArea?.Invoke();
         }
     }
@@ -72,14 +73,13 @@ public class Pickup : MonoBehaviour
     #region Input
     private void OnEnable()
     {
-        interactAction.action.Enable();
-        interactAction.action.performed += OnInteraction;
+    interactAction.action.Enable();
+    interactAction.action.performed += OnInteraction;
 
     }
 
     private void OnDisable()
     {
-        interactAction.action.Disable();
         interactAction.action.performed -= OnInteraction;
     }
     #endregion

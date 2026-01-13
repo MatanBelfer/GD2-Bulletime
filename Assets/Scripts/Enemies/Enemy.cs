@@ -87,7 +87,7 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         if(health <= 0)
         {
             anim.SetTrigger("onDeath");
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
     }
 
@@ -95,5 +95,10 @@ public abstract class Enemy : MonoBehaviour, IDamageable
     {
      Gizmos.DrawWireSphere(transform.position, scanRadius);
         Gizmos.DrawWireSphere(transform.position, attackRangeRadius);
+    }
+
+    public void OnDeath()
+    {
+        Destroy(this);
     }
 }

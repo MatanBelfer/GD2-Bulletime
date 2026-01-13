@@ -12,7 +12,6 @@ public class Controller : MonoBehaviour
     private Rigidbody2D _rb;
     private Shoot _shoot;
     private Animator _anim;
-    private bool _isWalking;
 
 
     private void Awake()

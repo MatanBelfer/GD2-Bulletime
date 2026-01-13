@@ -165,11 +165,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ExplodingEnemy
   health: 5
   damage: 3
-  moveSpeed: 1
+  moveSpeed: 2
   scanRadius: 5
   attackRangeRadius: 0.56
   explosion: {fileID: 5891727143124005407}
-  explosionRadius: 2
+  explosionRadius: 1.21
 --- !u!50 &363779034877353408
 Rigidbody2D:
   serializedVersion: 5

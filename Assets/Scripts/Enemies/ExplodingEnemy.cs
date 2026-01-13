@@ -10,13 +10,12 @@ public class ExplodingEnemy : Enemy
     {
         yield return null;
         anim.SetTrigger("isAttacking");
-        //ChangeState(Scan());
     }
 
     public void Explode()
     {
         explosion.gameObject.SetActive(true);
-        foreach (var collided in Physics2D.OverlapCircleAll(transform.position, scanRadius))
+        foreach (var collided in Physics2D.OverlapCircleAll(transform.position, explosionRadius))
         {
             if (collided.CompareTag(GameManager.PlayerTag))
             {
