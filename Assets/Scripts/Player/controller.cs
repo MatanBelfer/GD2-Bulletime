@@ -71,7 +71,14 @@ public class Controller : MonoBehaviour
     private void OnShoot(InputAction.CallbackContext context)
     {
         var mouse = Mouse.current;
-        _shoot.RequestShoot(mouse.position.ReadValue());
+        Vector2 targetPos = mouse.position.ReadValue();
+        
+        
+        Vector3 mouseWorldPosition =
+            Camera.main.ScreenToWorldPoint(new Vector3(targetPos.x, targetPos.y,
+                Mathf.Abs(Camera.main.transform.position.z)));
+
+        _shoot.RequestShoot(mouseWorldPosition);
     }
 
     private void OnRewind(InputAction.CallbackContext context)

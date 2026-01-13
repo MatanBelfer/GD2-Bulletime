@@ -11,6 +11,8 @@ public class RangedEnemy : Enemy
     {
         base.Awake();
         _shoot = GetComponent<Shoot>();
+        if (_shoot) _shoot.doesHaveWeapon = true;
+        
     }
 
     protected override IEnumerator Attack()

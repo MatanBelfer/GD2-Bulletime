@@ -130,11 +130,8 @@ public class Shoot : MonoBehaviour
     private void ShootBullet(Vector2 targetPos)
     {
         var bulletShot = CreateBullet();
-        Vector3 mouseWorldPosition =
-            Camera.main.ScreenToWorldPoint(new Vector3(targetPos.x, targetPos.y,
-                Mathf.Abs(Camera.main.transform.position.z)));
-
-        bulletShot.transform.up = mouseWorldPosition - transform.position;
+   
+        bulletShot.transform.up = (Vector3)targetPos - transform.position;
 
         _currentAmmo--;
         UpdateCanvas();

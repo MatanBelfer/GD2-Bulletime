@@ -87,6 +87,7 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         if(health <= 0)
         {
             anim.SetTrigger("onDeath");
+            Destroy(gameObject);
         }
     }
 

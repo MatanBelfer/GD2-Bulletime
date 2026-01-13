@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private GameObject Player; 
+    
     #region Tags
 
     public const string PlayerTag = "Player";
@@ -16,10 +18,12 @@ public class GameManager : MonoBehaviour
     public float pickupSizeMultiplier = 3f;
     
     #endregion
+     
 
     // Probably better to use events but who cares
-    public Shoot shoot;
-    public Health playerHealth;
+    private Shoot shoot;
+    
+    private Health playerHealth;
 
     #region Singleton Structure
 
@@ -36,7 +40,8 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        shoot = FindFirstObjectByType<Shoot>();
+        shoot = Player.GetComponent<Shoot>();
+        playerHealth = Player.GetComponent<Health>();
         
         foreach (Pickup p in FindObjectsByType<Pickup>(FindObjectsInactive.Include,FindObjectsSortMode.None)) {
             p.OnExitedArea += ExitedPickupArea;
