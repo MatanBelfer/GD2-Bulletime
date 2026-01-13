@@ -14,12 +14,12 @@ public class Shoot : MonoBehaviour
     private int _ammoInMag;
     private int _ammoOutsideMag;
 
-    [HideInInspector] public bool doesHaveWeapon = false;
+    [HideInInspector] public bool doesHaveWeapon = true;
 
     [SerializeField] private Stack<Bullet> shotBullets = new();
-    [SerializeField] private List<Bullet> placedBullets = new List<Bullet>();
+    //[SerializeField] private List<Bullet> placedBullets = new List<Bullet>();
 
-    private void OnValidate()
+    /* private void OnValidate()
     {
         #if UNITY_EDITOR
         if (!Application.isPlaying && bulletPrefab != null)
@@ -28,8 +28,8 @@ public class Shoot : MonoBehaviour
         }
         #endif
     }
-
-    private void UpdateAmmoDistribution()
+ */
+    /* private void UpdateAmmoDistribution()
     {
         #if UNITY_EDITOR
         _ammoInMag = Mathf.RoundToInt(magazineSize * ammoInMagRatio);
@@ -64,13 +64,12 @@ public class Shoot : MonoBehaviour
             placedBullets.Add(bullet);
         }
         
-        UnityEditor.EditorUtility.SetDirty(this);
         #endif
-    }
+    } */
 
     private void Awake()
     {
-        if (Application.isPlaying)
+        /* if (Application.isPlaying)
         {
             _ammoInMag = Mathf.RoundToInt(magazineSize * ammoInMagRatio);
             _currentAmmo = _ammoInMag;
@@ -84,7 +83,9 @@ public class Shoot : MonoBehaviour
                     shotBullets.Push(placedBullets[i]);
                 }
             }
-        }
+        } */
+
+        _currentAmmo = magazineSize;
     }
 
     private void Start()
@@ -94,8 +95,8 @@ public class Shoot : MonoBehaviour
 
     public void RequestShoot(Vector2 targetPos)
     {
-        if (!doesHaveWeapon)
-            return;
+        /* if (!doesHaveWeapon)
+            return; */
         
         if (_currentAmmo == 0) {
             Debug.LogWarning("Magazine empty, no bullets to shoot!");
@@ -107,9 +108,9 @@ public class Shoot : MonoBehaviour
 
     public void RequestRewind()
     {
-        if (!doesHaveWeapon)
+        /* if (!doesHaveWeapon)
             return;
-        
+         */
         if (shotBullets.Count == 0)
         {
             Debug.LogWarning("No bullets to rewind!");

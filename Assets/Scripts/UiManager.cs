@@ -6,7 +6,6 @@ public class UiManager : MonoBehaviour
 {
     public static UiManager Instance;
 
-    [SerializeField] private TextMeshProUGUI ammo;
     [SerializeField] private GameObject[] healthBits;
     [SerializeField] private GameObject[] ammoBits;
 
@@ -77,8 +76,6 @@ public class UiManager : MonoBehaviour
                     ammoBits[i].gameObject.SetActive(i < currentAmmo); 
             }
         }
-        
-        ammo.SetText($"{currentAmmo} / {magazineSize}");
     }
 
     public void UpdateHealth(int currentHealth)
