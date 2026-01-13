@@ -12,6 +12,8 @@ public class UiManager : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI pickupText;
     [SerializeField] private RectTransform pickupRect;
+
+    [SerializeField] private TextMeshProUGUI hintText;
     
     private Pickup _pickup;
     
@@ -31,6 +33,7 @@ public class UiManager : MonoBehaviour
     private void Start()
     {
         HidePickupText();
+        HideHintText();
     }
 
 
@@ -47,6 +50,24 @@ public class UiManager : MonoBehaviour
         pickupRect.anchorMin = rectPos;
         pickupRect.anchorMax = rectPos;
     }
+    
+    
+    #region Hint
+
+
+    public void SetHintText(string text)
+    {
+        hintText.text = text;
+    }
+
+
+    public void HideHintText()
+    {
+        hintText.text = "";
+    }
+    
+    
+    #endregion
     
     
     #region Pickup

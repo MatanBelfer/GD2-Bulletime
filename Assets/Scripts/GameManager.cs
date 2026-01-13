@@ -48,8 +48,28 @@ public class GameManager : MonoBehaviour
             p.OnEnteredArea += EnteredPickupArea;
             p.OnPickup += PickUp;
         }
+
+        foreach (HintArea a in FindObjectsByType<HintArea>(FindObjectsInactive.Include,FindObjectsSortMode.None)) {
+            a.OnPlayerEnter += EnteredHintArea;
+            a.OnPlayerExit += ExitedHintArea;
+        }
     }
 
+    
+    #region Hint
+
+    void EnteredHintArea(string text)
+    {
+        UiManager.Instance.SetHintText(text);
+    }
+
+    void ExitedHintArea()
+    {
+        UiManager.Instance.HideHintText();
+    }
+    
+    #endregion
+    
 
     #region Pickup
     void EnteredPickupArea(Pickup pickup)
