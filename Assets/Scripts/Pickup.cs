@@ -53,7 +53,6 @@ public class Pickup : MonoBehaviour
     {
         if (other.CompareTag(GameManager.PlayerTag)) {
             _isPlayerInArea = true;
-            Debug.Log("Player in area");
             OnEnteredArea?.Invoke(this);
         }
     }
@@ -63,7 +62,6 @@ public class Pickup : MonoBehaviour
     {
         if (other.CompareTag(GameManager.PlayerTag)) {
             _isPlayerInArea = false;
-                        Debug.Log("Player outside area");
             OnExitedArea?.Invoke();
         }
     }

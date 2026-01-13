@@ -1,14 +1,20 @@
+using System;
 using UnityEngine;
 
 
 public class Health : MonoBehaviour, IDamageable, IHealable
 {
-    [SerializeField] private int startingHealth = 5;
-    private float _currentHealth;
+    [SerializeField] private int startingHealth = 1;
+    [SerializeField] private int maxHealth = 5;
+    private int _currentHealth;
 
     void Awake()
     {
         _currentHealth = startingHealth;
+    }
+
+    void Start()
+    {
         UpdateHealthBar();
     }
 
@@ -16,7 +22,8 @@ public class Health : MonoBehaviour, IDamageable, IHealable
     {
         _currentHealth -= damage;
         if (_currentHealth <= 0)
-            GetComponent<Animator>().SetTrigger("onDeath");
+            //GetComponent<Animator>().SetTrigger("onDeath");
+            _currentHealth = 1;
 
         if (gameObject.CompareTag(GameManager.PlayerTag))
             UpdateHealthBar();
@@ -29,6 +36,7 @@ public class Health : MonoBehaviour, IDamageable, IHealable
     {
         Debug.Log($"{gameObject.name}: Healed for {health} health.");
         _currentHealth += health;
+        _currentHealth = Math.Min(_currentHealth, maxHealth);
         UpdateHealthBar();
     }
 
@@ -36,7 +44,7 @@ public class Health : MonoBehaviour, IDamageable, IHealable
     {
         if (gameObject.CompareTag(GameManager.PlayerTag))
         {
-            UiManager.Instance.UpdateHealth((int)_currentHealth);
+            UiManager.Instance.UpdateHealth(_currentHealth);
         }
     }
 }

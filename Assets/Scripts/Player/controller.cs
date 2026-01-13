@@ -59,12 +59,8 @@ public class Controller : MonoBehaviour
 
     private void OnDisable()
     {
-        shootAction.action.Disable();
         shootAction.action.performed -= OnShoot;
-
-        rewindAction.action.Disable();
         rewindAction.action.performed -= OnRewind;
-        moveAction.action.Disable();
     }
 
     private void OnShoot(InputAction.CallbackContext context)

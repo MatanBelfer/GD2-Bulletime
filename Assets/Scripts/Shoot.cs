@@ -8,11 +8,11 @@ public class Shoot : MonoBehaviour
     
     [Header("Ammo Distribution")]
     [Range(0, 1)]
-    [SerializeField] private float ammoInMagRatio = 1f; // 1 = all in mag, 0 = all outside
+    //[SerializeField] private float ammoInMagRatio = 1f; // 1 = all in mag, 0 = all outside
     
     private int _currentAmmo;
-    private int _ammoInMag;
-    private int _ammoOutsideMag;
+ /*    private int _ammoInMag;
+    private int _ammoOutsideMag; */
 
     [HideInInspector] public bool doesHaveWeapon = true;
 

@@ -112,7 +112,7 @@ MonoBehaviour:
   damage: 1
   moveSpeed: 1
   scanRadius: 9
-  attackRangeRadius: 7
+  attackRangeRadius: 5.77
   projectilePrefab: {fileID: 222347152001779927, guid: 4f46da9923619f241bdca6a05ef7a658, type: 3}
   attackInterval: 1
 --- !u!95 &528383490139756946
@@ -151,9 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Shoot
   bulletPrefab: {fileID: 4020307205854137375, guid: 4f46da9923619f241bdca6a05ef7a658, type: 3}
   magazineSize: 999
-  ammoInMagRatio: 1
   doesHaveWeapon: 0
-  placedBullets: []
 --- !u!50 &8832776955553443742
 Rigidbody2D:
   serializedVersion: 5

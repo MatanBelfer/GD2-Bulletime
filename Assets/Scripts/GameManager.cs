@@ -92,7 +92,7 @@ public class GameManager : MonoBehaviour
                 shoot.doesHaveWeapon = true;
                 break;
             case Pickup.PickupType.Health:
-                playerHealth.Heal(1);
+                playerHealth.Heal(5);
                 break;
         }
         UiManager.Instance.HidePickupText();

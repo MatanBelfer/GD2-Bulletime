@@ -104,6 +104,7 @@ GameObject:
   - component: {fileID: 3599505432923334287}
   - component: {fileID: 6418951135025934632}
   - component: {fileID: 1400081709468342410}
+  - component: {fileID: 3886624424731804472}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -185,9 +186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Shoot
   bulletPrefab: {fileID: 3206324485848968155, guid: 8a5b3e1b072aedb4f9247ba527ee7af4, type: 3}
   magazineSize: 7
-  ammoInMagRatio: 1
   doesHaveWeapon: 0
-  placedBullets: []
 --- !u!70 &1400081709468342410
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -225,6 +224,20 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0077793, y: 0.005186081}
   m_Size: {x: 0.44295156, y: 0.8962755}
   m_Direction: 0
+--- !u!114 &3886624424731804472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5928300572124346604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1420d607b5225fb46ae4f0b3d0b0ec0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  startingHealth: 1
+  maxHealth: 5
 --- !u!1 &6322101688294560597
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,7 +399,7 @@ GameObject:
   - component: {fileID: 1982557066275612674}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

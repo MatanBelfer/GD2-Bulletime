@@ -107,7 +107,7 @@ public class UiManager : MonoBehaviour
             {
                 healthBits[i].gameObject.SetActive(i < currentHealth);
             }
-        }
+        }   
     }
     #endregion
 }

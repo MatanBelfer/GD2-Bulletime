@@ -167,7 +167,7 @@ MonoBehaviour:
   damage: 3
   moveSpeed: 2
   scanRadius: 5
-  attackRangeRadius: 0.56
+  attackRangeRadius: 0.86
   explosion: {fileID: 5891727143124005407}
   explosionRadius: 1.21
 --- !u!50 &363779034877353408
